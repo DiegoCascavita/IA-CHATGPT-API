@@ -11,6 +11,7 @@ body {
   background: #343541;
 }
 
+
 #app {
   width: 100vw;
   height: 100vh;
@@ -69,7 +70,7 @@ body {
   height: 36px;
   border-radius: 5px;
 
-  background: #5436DA;
+  background: #c7701e;
 
   display: flex;
   justify-content: center;
@@ -77,7 +78,7 @@ body {
 }
 
 .ai .profile {
-  background: #10a37f;
+  background: #11b8a1;
 }
 
 .profile img {
@@ -117,7 +118,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: #40404f;
 
   display: flex;
   flex-direction: row;
@@ -142,6 +143,7 @@ button {
   border: 0;
   cursor: pointer;
   background: transparent;
+  
 }
 
 form img {
