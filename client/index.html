@@ -13,7 +13,7 @@
       <img src="./assets/check.png" alt="PopUp" class="cookies"
       style="height: 50px;">
       <p class="popup-text">The first response can take up to 40 s while the system is initializing, then you will have instant responses !</p>
-      <button type="button" class="accept-btn">Accept</button>
+      <button type="button" class="accept-btn" onclick="closeModal()">Accept</button>
     </div>
 
     <div id="app">
@@ -25,6 +25,14 @@
       </form>
 
     </div>
+    <script>
+      // --------------------------POP UP
+let modalBox = document.getElementById('modalbox')
+
+function closeModal() {
+    modalBox.style.display = "none";
+}
+    </script>
     <script type="module" src="script.js"></script>
   </body>
 </html>
