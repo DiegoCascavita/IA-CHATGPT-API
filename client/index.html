@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <div id="modalbox">
+      <img src="./assets/check.png" alt="PopUp" class="cookies"
+      style="height: 50px;">
+      <p class="popup-text">The first response can take up to 40 s while the system is initializing, then you will have instant responses !</p>
+      <button type="button" class="accept-btn">Accept</button>
+    </div>
+
     <div id="app">
       <div id="chat_container"></div>
       
@@ -15,6 +23,7 @@
         <textarea name="prompt" cols="1" rows="1" placeholder="Feel free to ask ... "></textarea>
         <button type="submit"><img src="https://www.lahuertaverde.mx/wp-content/plugins/cl-chatbot/img/icons/send.png"></button>
       </form>
+
     </div>
     <script type="module" src="script.js"></script>
   </body>
